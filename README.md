@@ -20,7 +20,7 @@ This Vagrant and Virtualbox based Ansible playbook sets up a MEAN stack (Mongodb
 
 * Box used: [Ubuntu 14.04 64-bit (Trusty)](https://vagrantcloud.com/ubuntu/boxes/trusty64)
 * [Virtualbox settings:](https://www.virtualbox.org/manual/ch08.html#vboxmanage-modifyvm)
- * memory 1024
+ * memory 512
  * IP 192.168.46.100
 
 ### Playbook tasks
