@@ -35,3 +35,10 @@ This Vagrant and Virtualbox based Ansible playbook sets up a MEAN stack (Mongodb
  * Installs latest version of Node.js.
  * Installs [Grunt](http://gruntjs.com/).
  * Installs [Gulp](http://gulpjs.com/).
+
+### References
+
+* [Geerling, Jeff, *Ansible for DevOps*](https://leanpub.com/ansible-for-devops)
+  * [Ansible for DevOps Examples on GitHub](https://github.com/geerlingguy/ansible-for-devops)
+* [Vagrant & Ansible Quickstart Tutorial](http://adamcod.es/2014/09/23/vagrant-ansible-quickstart-tutorial.html)
+* [Ansible playbook - MEAN stack](https://github.com/dennmart/vagrant-ansible-playbooks/tree/master/mean)
