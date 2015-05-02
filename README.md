@@ -6,6 +6,13 @@ This Vagrant and Virtualbox based Ansible playbook sets up a MEAN stack (Mongodb
 
 * Install VirtualBox and Vagrant (make sure Vagrant is version 1.6.5 or later)
 * Install Ansible
+  * On MacBook Air and Pro, I had best results using Python's pip, which doesn't come with the version of Python that comes pre-installed on Macs. So if you have homebrew installed (and you should) you can do:
+
+````
+$ brew install python 
+$ sudo pip install ansible
+````
+
 * Clone this project to a folder where you keep your VMs
 * On the cammand-line in that folder, type `vagrant up`
 * The process will take a while, on my 4GB RAM MacBook Pro it took about 10 minutes. But that's just the first time, once you have it provisioned it starts up again very quickly. A large part of the initial slowness is the one-time provisioning via Ansible of the MEAN components.
